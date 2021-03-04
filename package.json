@@ -1,0 +1,51 @@
+{
+  "name": "OnekeyWalletWeb3Provider",
+  "version": "0.0.1",
+  "description": "web3 injection",
+  "main": "index.js",
+  "scripts": {
+    "ci": "npm run lint && npm run cover",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OneKeyHQ/electrum.git"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "appchain",
+    "wallet",
+    "ethereum-dapps",
+    "dapps"
+  ],
+  "author": "OneKeyHQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OneKeyHQ/electrum/issues"
+  },
+  "homepage": "https://github.com/OneKeyHQ/electrum/blob/bixin_dev/README.rst",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.2.0",
+    "coveralls": "^3.0.1",
+    "del": "^3.0.0",
+    "eslint": "^5.0.1",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-node": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^3.0.0",
+    "undertaker": "^1.2.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "web3": "0.20.7",
+    "web3-provider-engine": "https://github.com/OneKeyHQ/provider-engine#alphawallet"
+  }
+}
